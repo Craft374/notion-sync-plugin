@@ -1,0 +1,17 @@
+{
+  "pages": [
+    {"n": 1, "title": "게임 기획서", "body": [["text", "전체 개요입니다."]]},
+    {"n": 2, "parent": 1, "title": "세계관", "body": [["header", "세계관"], ["bulleted_list", "대륙: 3개"], ["bulleted_list", "종족: 인간, 엘프"]]},
+    {"n": 3, "parent": 1, "title": "전투시스템", "body": [
+      ["table", [["항목", "값"], ["기본 공격력", "10"]]],
+      ["code", "C#", "int atk = 10;"],
+      ["toggle", "스킬 목록", [["bulleted_list", "파이어볼"]]]
+    ]},
+    {"n": 4, "parent": 3, "title": "스킬", "body": [["text", "데미지 30"]]},
+    {"n": 6, "parent": 5, "title": "검", "in_db": true, "props": {"st": "완료"}, "body": [["text", "공격력 +5"]]},
+    {"n": 7, "parent": 5, "title": "방패", "in_db": true, "body": [["text", "방어력 +3"]]}
+  ],
+  "databases": [
+    {"n": 5, "parent": 1, "title": "아이템 DB"}
+  ]
+}

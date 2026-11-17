@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.env
+*.tmp
+.DS_Store
+# 개인 기획 자료(공개 저장소 제외)
+기획.md
+/CLAUDE.md

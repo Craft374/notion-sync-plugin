@@ -1,0 +1,13 @@
+{
+  "name": "notion-sync-plugin",
+  "owner": {
+    "name": "Craft374"
+  },
+  "plugins": [
+    {
+      "name": "notion-sync",
+      "source": "./",
+      "description": "공개 Notion 링크로 기획 문서를 로컬 Markdown으로 동기화합니다."
+    }
+  ]
+}

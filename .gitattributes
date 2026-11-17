@@ -1,0 +1,5 @@
+# Windows 에서 clone 해도 실행기가 깨지지 않도록 줄바꿈 고정
+bin/notion-sync text eol=lf
+*.cmd text eol=crlf
+*.py text eol=lf
+*.md text eol=lf
